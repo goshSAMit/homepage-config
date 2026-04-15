@@ -1,0 +1,43 @@
+- Virtualization:
+    - Proxmox:
+        icon: proxmox.svg
+        href: https://proxmox.home.goshsamit.com
+        description: Homelab Proxmox Server
+
+- Networking:
+    - PFSense:
+        icon: pfsense.svg
+        href: https://pfsense.home.goshsamit.com
+        description: Gateway and Firewall
+    - Pi-Hole:
+        icon: pi-hole.svg
+        href: https://pihole.home.goshsamit.com/admin/login
+        description: Pi-Hole
+    - Traefik:
+        icon: traefik-proxy.svg
+        href: https://traefik.home.goshsamit.com
+        description: Traefik Proxy for Production Cert Management
+    - TP-Link Main Switch:
+        icon: tp-link.svg
+        href: https://switch.home.goshsamit.com
+        description: Main 24-port PoE switch
+    - First Floor Access Point:
+        icon: tp-link.svg
+        href: https://ap1.home.goshsamit.com
+        description: TP-Link EAP650 Access Point on the First Floor
+    - Second Floor Access Point:
+        icon: tp-link.svg
+        href: https://ap2.home.goshsamit.com
+        description: TP-Link EAP650 Access Point on the Second Floor
+
+- Storage:
+    - TrueNAS:
+        icon: truenas.svg
+        href: "{{HOMEPAGE_VAR_TRUENAS_URL}}"
+        description: Network Attached Storage for the family
+
+- Media:
+    - Plex:
+        icon: plex.svg
+        href: https://plex.home.goshsamit.com
+        description: Media Server for Movies and TV Shows
